@@ -1,0 +1,78 @@
+
+[data-bs-theme="dark"] .bpkm-panel-comentario {
+  background: #232b3a !important;
+  color: #e9ecef;
+}
+.bpkm-tabs { gap: .5rem; }
+.bpkm-tab { border-radius: 10px; }
+/* Variables para light/dark */
+.bpkm-tab.p-button-outlined {
+  border-color: var(--bpkm-border, #d1d5db);
+  background: var(--bpkm-bg, #fff);
+}
+.bpkm-tab.active {
+  background: var(--bpkm-active-bg, #eef2ff);
+  border-color: var(--bpkm-active-border, #6366f1);
+  color: var(--bpkm-active-color, #3730a3);
+}
+
+.tag-pill .p-tag {
+  border-radius: 9999px;
+  font-size: .75rem;
+  padding: .2rem .6rem;
+  line-height: 1;
+}
+
+.audit-card {
+  background: var(--bpkm-card-bg, #f8fafc);
+  border: 1px solid var(--bpkm-card-border, #e5e7eb);
+  border-radius: .5rem;
+  padding: .75rem;
+}
+.audit-card .kv-label {
+  font-size: .75rem;
+  color: var(--bpkm-label, #6b7280);
+  margin-bottom: .125rem;
+}
+.audit-card .kv-value {
+  font-weight: 500;
+  line-height: 1.25;
+  word-break: break-word;
+}
+
+/* Variables para dark mode */
+[data-bs-theme="dark"] {
+  --bpkm-bg: #23272b;
+  --bpkm-border: #343a40;
+  --bpkm-active-bg: #232b3a;
+  --bpkm-active-border: #8ab4f8;
+  --bpkm-active-color: #e9ecef;
+  --bpkm-card-bg: #181a1b;
+  --bpkm-card-border: #343a40;
+  --bpkm-label: #b0b8c1;
+  --bpkm-comment-bg: #232b3a;
+}
+
+/* Inputs compactos — usada también fuera de BPKM (ver AGENTS.md, sección CSS) */
+.p-inputtext-sm {
+  font-size: .85rem;
+  padding: .375rem .5rem;
+}
+
+.p-calendar.p-inputtext-sm .p-inputtext {
+  font-size: .85rem;
+  padding: .375rem .5rem;
+}
+
+[data-bs-theme="dark"] .bpkm-panel-monitoreo {
+  background: var(--bpkm-panel-bg, #232b3a) !important;
+  border-color: var(--bpkm-panel-border, #343a40) !important;
+  color: #e9ecef;
+}
+
+/* Tags modernos — usada también fuera de BPKM (ver AGENTS.md, sección CSS) */
+.p-tag {
+  font-size: .75rem;
+  padding: .25rem .5rem;
+  font-weight: 500;
+}
